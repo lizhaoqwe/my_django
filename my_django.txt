@@ -1,0 +1,5 @@
+Django==2.2.6
+pexpect==4.7.0
+ptyprocess==0.6.0
+pytz==2019.3
+sqlparse==0.3.0
