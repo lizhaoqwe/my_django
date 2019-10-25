@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="shortcut icon" href="{% static 'imgs/favicon.ico' %}" type="image/x-icon">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1040617_wox0i60h73i.css">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+    <script src="{% static 'js/header.js' %}"></script>
+    <script src="{% static 'js/roll.js' %}"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <img src="{% static 'imgs/header-logo.jpg' %}" alt="header-logo">
+            <ul class="header-info">
+                <li><a href="javascript:volid(0)">创投咨询</a></li>
+                <li><a href="javascript:volid(0)">创投咨询</a></li>
+                <li><a href="javascript:volid(0)">创投咨询</a></li>
+                <li class="active"><a href="">搜索</a></li>
+            </ul>
+            <div class="auth">
+                <i class="iconfont icon-round-person-px-copy"></i>
+                <span class="login">
+                    <a href="">登陆</a>
+                </span> /
+                <span class="register">
+                    <a href="">注册</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    {% block main %}
+    {% endblock %}
+
+</body>
+</html>

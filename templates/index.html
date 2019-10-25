@@ -1,0 +1,48 @@
+{% extends 'header.html' %}
+{% load static %}
+{% block main %}
+    <div class="main">
+        <div class="wrapper">
+            <div class="content">
+                <div class="roll-wrapper">
+                    <ul class="roll_ul">
+                        <li><img src="{% static 'imgs/4.jpg' %}" alt=""></li>
+                        <li><img src="{% static 'imgs/3.jpg' %}" alt=""></li>
+                        <li><img src="{% static 'imgs/2.jpg' %}" alt=""></li>
+                        <li><img src="{% static 'imgs/1.jpg' %}" alt=""></li>
+                    </ul>
+                    <span class="arrow left">‹</span>
+                    <span class="arrow right">›</span>
+                    <div class="page-controll-group">
+                        <ul class="page-controll">
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="news-wrapper">
+                    <div class="news-title">
+                        <ul class="news-title-ul">
+                            <li>最新资讯</li>
+                            <li>热点</li>
+                            <li>深度报道</li>
+                            <li>干货分享</li>
+                            <li>投资人说</li>
+                        </ul>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-tag news-content1">
+
+                        </div>
+                        <div class="news-tag news-content2">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar">
+
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
