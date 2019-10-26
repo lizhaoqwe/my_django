@@ -38,6 +38,10 @@
     color: white;
     text-decoration: none;
 }
+
+.header-info li a:hover {
+    color: blue;
+}
 .auth {
     float: right;
     line-height: 68px;
