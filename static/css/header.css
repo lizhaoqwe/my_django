@@ -37,6 +37,8 @@
 .header-info li a {
     color: white;
     text-decoration: none;
+    width: 65px;
+    margin: 0 auto;
 }
 
 .header-info li a:hover {
