@@ -13,6 +13,7 @@
     <script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
     <script src="{% static 'js/header.js' %}"></script>
     <script src="{% static 'js/roll.js' %}"></script>
+    <script src="{% static 'js/footer.js' %}"></script>
 </head>
 <body>
     <div class="header">
@@ -88,9 +89,15 @@
                         <li>创业礼包</li>
                     </ul>
 
-                    <div class="about">
-                        关于我们：
-                    </div>
+                    <ul class="about">
+                        <li>关于我们:</li>
+                        <li class="wechat">
+                            <span class="text">xfz007</span>
+                        </li>
+                        <li class="wechat">
+                            <span class="text">云计算</span>
+                        </li>
+                    </ul>
                 </div>
 
                 <div class="footerwrapper-down">
@@ -103,10 +110,12 @@
                 </div>
             </div>
         </div>
-
         <div class="footerdown">
             ©2019 北京子木投资顾问有限公司 京ICP备15051289号 | 增值电信业务经营许可证：京B2-20170574
         </div>
+        <div class="footer_erweima">
+        <img src="{% static 'imgs/erweima.jpeg' %}" alt="">
+    </div>
     </div>
 </body>
 </html>

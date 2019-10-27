@@ -4,6 +4,7 @@
     background: #555e67;
     font-size:14px;
     color: #c9c9c9;
+    position: relative;
 }
 
 .footerup {
@@ -36,6 +37,21 @@
 .footerwrapper-up .about {
     float: left;
     margin-left: 40px;
+    overflow: hidden;
+}
+.footerwrapper-up .about li {
+    float: left;
+    width: 80px;
+    margin-left: 20px;
+}
+
+.footerwrapper-up .about .wechat {
+    background: url("../imgs/wx-icon.png") no-repeat;
+    background-size: 21%;
+    cursor: pointer;
+}
+.text {
+    margin-left: 20px;
 }
 .footerwrapper-up .list li {
     float: left;
@@ -66,4 +82,21 @@
     background: #383e44;
     line-height: 57px;
     text-align: center;
+}
+
+
+
+
+/*hover 二维码*/
+
+.footer_erweima {
+    position: absolute;
+    right: 100px;
+    z-index: 1000;
+    bottom: 140px;
+}
+
+.footer_erweima img {
+    height: 50%;
+    width: 50%;
 }
